@@ -110,6 +110,7 @@ public class Date {
         else if(format == 2){
             finaal = this.day+" de "+this.monthName + " de " + this.year;
         }
+        System.out.println(finaal);
         return finaal;
     }
 

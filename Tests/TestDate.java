@@ -21,9 +21,11 @@ public class TestDate {
         Date[] dates = {o1, o2, o3, o4, o5};
 
         for(Date i:dates){
-            System.out.println(i.toString(0));
-            System.out.println(i.toString(1));
-            System.out.println(i.toString(2));
+            for(int j = 0; j <= 2; j++){
+                i.setFormat(j);
+                System.out.println(i.toString());
+            }
+
         }
     }
 }
